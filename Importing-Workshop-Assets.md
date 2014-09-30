@@ -8,9 +8,13 @@ In this module, you import an unmanaged package that loads custom objects, and t
 
 1. Login into your Developer Edition account
 
-1. Access the following URL:
+1. Access the following URL: 
 
-1. Follow the instructions to install the package
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tj0000000ToNE](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tj0000000ToNE)
+
+1. On the **Package Installation Details** screen, click the **Continue** button
+
+1. Click **Next**, **Next**, **Install**
 
 
 ## Step 2: Enter Sample Data
