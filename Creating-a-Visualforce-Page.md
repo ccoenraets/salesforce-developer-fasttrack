@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 7&#58; Creating a Visualforce Page
+title: Module 6&#58; Creating a Visualforce Page
 ---
 In this module, you create a Visualforce page to provide a custom user interface for creating and editing speakers.
 

@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 4&#58; Creating an Apex Class
+title: Module 3&#58; Creating an Apex Class
 ---
 Apex is a strongly typed, object-oriented programming language that you use to execute code in your Saleforce instance. The Apex syntax is similar to Java and also includes built-in support for database operations. In this module, you create an EmailManager class that encapsulates the logic to send confirmation emails to the conference speakers.
 
@@ -83,7 +83,7 @@ static:
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="Creating-the-Application.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+<a href="Importing-Workshop-Assets.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
 <a href="Accessing-Data-using-SOQL-and-DML.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>

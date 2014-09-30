@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 6&#58; Creating Triggers
+title: Module 5&#58; Creating Triggers
 ---
 In this module, you create a trigger that sends confirmation emails to speakers when they are assigned to a session.
 You create another trigger that rejects double bookings of speakers.

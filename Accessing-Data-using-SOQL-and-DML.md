@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Module 5&#58; Accessing Data using SOQL and DML
+title: Module 4&#58; Accessing Data using SOQL and DML
 ---
 SOQL is the Salesforce Object Query Language. It is similar to SQL. You use SOQL to retrieve data in Salesforce.
 You use the Salesforce Data Manipulation Language (DML) to insert, update and delete data. In this module, you use the Developer Console to familiarize yourself with SOQL
