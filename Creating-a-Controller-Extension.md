@@ -6,7 +6,34 @@ In this module, you enhance the Visualforce page you built in module 6: you crea
 
 ![](images/upload.jpg)
 
-## Step 1: Create a Controller Extension
+
+## Step 1: Extend the Data Model
+
+In this step, you add two fields to the Speaker object: **Picture_Path** to store the location of the picture on the server, and **Picture**, a Formula field used to display the image in the Visualforce page.
+
+1. In **Setup**, select **Build** > **Create** > **Objects**, and click the **Speaker** link
+
+1. In the **Custom Fields & Relationships** section, click **New**, and create a **Picture_Path** field defined as follows:
+  - Data Type: **Text**
+  - Field Label: **Picture Path**
+  - Length: **255**
+  - Field Name: **Picture_Path**
+
+    Click **Next**, **Next**, **Save & New**
+
+1. Create a **Picture** field defined as follows:
+  - Data Type: **Formula**
+  - Field Label: **Picture**
+  - Field Name: **Picture**
+  - Formula Return Type: **Text**
+  - Formula: **IMAGE(Picture&#95;Path__c, '')**
+  
+        > Make sure you use <strong>two single quotes</strong> and NOT a double quote.
+
+    Click **Next**, **Next**, **Save**
+
+
+## Step 2: Create a Controller Extension
 
 1. In the Developer Console, select **File** > **New** > **Apex Class**, specify **SpeakerControllerExtension** as the class name and click **OK**
 
@@ -56,7 +83,7 @@ In this module, you enhance the Visualforce page you built in module 6: you crea
 1. Save the file
 
 
-## Step 2: Modify the Visualforce page
+## Step 3: Modify the Visualforce page
 
 1. In the Developer Console, open the SpeakerForm page, and add the controller extension to the page definition:
 
@@ -78,7 +105,7 @@ In this module, you enhance the Visualforce page you built in module 6: you crea
 
 1. Save the file
 
-## Step 3: Test the Application
+## Step 4: Test the Application
 
 1. Click the Speakers tab
 
