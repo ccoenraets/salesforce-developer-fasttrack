@@ -22,14 +22,14 @@ In this module, you import an unmanaged package that loads custom objects, and t
 
     ![](images/setup.jpg)
 
-1. To examine the **Custom Objects** imported as part of the package:
+1. To examine the imported **Custom Objects**:
     - In the left navigation, select **Build** > **Create** > **Objects**
     - Click any of the objects (Session, Speaker, Session_Speaker), and examine the **Standard Fields** and **Custom Fields & Relationships** sections.
 
-1. To examine the **Tabs** imported as part of the package:
+1. To examine the imported **Tabs**:
     - In the left navigation, select **Build** > **Create** > **Tabs**
 
-1. To examine the **App** imported as part of the package:
+1. To examine the imported **App**:
     - In the left navigation, select **Build** > **Create** > **Apps**
     - Click the **Conference** link, click the **Edit** button, and examine the **Selected Tabs** and the user profiles that have access to the application (System Administrator).
 
