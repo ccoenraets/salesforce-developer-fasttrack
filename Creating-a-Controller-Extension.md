@@ -97,6 +97,8 @@ In this step, you add two fields to the Speaker object: **Picture_Path** to stor
     <apex:inputFile value="{!picture}" accept="image/*" />
     ```
 
+    > Make sure you use an **inputFile** and not an **inputField**
+
 1. Display the potential errorMessage right after &lt;/apex:pageBlock>
 
     ```
