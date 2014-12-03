@@ -80,6 +80,8 @@ static:
 
 1. Click **Execute** and check your email
 
+    > if you get a **Method does not exist or incorrect signature** error, make sure you made the sendMail() method static (Step 3 / point 2 above).
+
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
