@@ -4,7 +4,7 @@ title: Module 2&#58; Importing Workshop Assets
 ---
 In this module, you import an unmanaged package that loads custom objects, and tabs for the conference application.
 
-## Step 1: Import the package
+## Step 1: Import the Package
 
 1. Login into your Developer Edition account
 
@@ -16,8 +16,24 @@ In this module, you import an unmanaged package that loads custom objects, and t
 
 1. Click **Next**, **Next**, **Install**
 
+## Step 2: Examine the Imported Assets
 
-## Step 2: Enter Sample Data
+1. Click the **Setup** link (upper right corner)
+
+    ![](images/setup.jpg)
+
+1. To examine the **Custom Objects** imported as part of the package:
+    - In the left navigation, select **Build** > **Create** > **Objects**
+    - Click any of the objects (Session, Speaker, Session_Speaker), and examine the **Standard Fields** and **Custom Fields & Relationships** sections.
+
+1. To examine the **Tabs** imported as part of the package:
+    - In the left navigation, select **Build** > **Create** > **Tabs**
+
+1. To examine the **App** imported as part of the package:
+    - In the left navigation, select **Build** > **Create** > **Apps**
+    - Click the **Conference** link, click the **Edit** button, and examine the **Selected Tabs** and the user profiles that have access to the application (System Administrator).
+
+## Step 3: Enter Sample Data
 
 1. Select **Conference** in the App selector (upper right corner of the screen)
 
