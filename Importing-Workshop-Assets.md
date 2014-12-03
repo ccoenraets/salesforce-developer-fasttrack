@@ -10,7 +10,7 @@ In this module, you import an unmanaged package that loads custom objects, and t
 
 1. Access the following URL: 
 
-   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tj0000000ToNE](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tj0000000ToNE)
+    [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tj0000000ToNE](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tj0000000ToNE)
 
 1. On the **Package Installation Details** screen, click the **Continue** button
 
