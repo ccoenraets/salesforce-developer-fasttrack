@@ -13,7 +13,6 @@ aspects of a conference: sessions, speakers, hotels, etc. You also create a simp
 - Create Triggers
 - Create Visualforce Pages
 - Create Controller Extensions and Custom Controllers
-- Create Unit Tests
 
 ## Prerequisites
 
